@@ -52,6 +52,8 @@ public class Popcorn {
 		System.out.println("Popcorn says: making package of " + this.flavor + " popcorn.");
 	}
 
+	
+
 	public void eat() {
 		if (isCooked) {
 			System.out.println("Popcorn says: Time to eat popcorn!");
