@@ -1,12 +1,11 @@
-
-
 public class Vault {
-public static void main(String[] args) {
-	Vault v = new Vault();
-	v.tryCode(0);
-}
-
-private void tryCode(int n) {
-	if
-}
-}
+	int secretCode = 110;
+public boolean tryCode(int n) {
+	if(n == secretCode) {
+		return true;
+	}
+	else {
+		return false;
+	}
+	}
+	}

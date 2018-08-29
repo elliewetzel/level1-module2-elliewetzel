@@ -1,5 +1,6 @@
 /Cup.class
 /IntroToJUnit.class
+/JamesBond.class
 /Kettle$Water.class
 /Kettle.class
 /Microwave.class
@@ -15,6 +16,6 @@
 /TeaMakerTest.class
 /TeaParty.class
 /TeaPartyTest.class
-/extra/
-/JamesBond.class
 /Vault.class
+/extra/
+/VaultRunner.class

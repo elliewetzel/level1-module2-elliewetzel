@@ -2,13 +2,15 @@
 
 public class JamesBond {
 	
-public static void main(String[] args) {
-	JamesBond bond = new JamesBond();
-	bond.findCode(new Vault());
-}
 
-private void findCode(Vault v) {
-	
-	
+public int findCode(Vault v) {
+	boolean code = false;
+	for(int i = 0; i < 1000000; i++) {
+		code = v.tryCode(i);
+	if(code == true) {
+		return i;
+	}
+	}
+	return -1;
 }
 }
