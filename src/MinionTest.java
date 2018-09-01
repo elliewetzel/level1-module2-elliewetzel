@@ -7,7 +7,7 @@
 import static org.junit.Assert.*;
 
 import org.junit.Test;
-
+ 
 /**
  * To make these tests pass, you will need to create a Minion class with the member variables below.
  * 
